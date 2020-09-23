@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>INSTEEL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta name="description" content="DREAM SPACE, 인스틸 주식회사">
+    <meta name="keywords" content="철근가공,커플러가공,샵,건설,철근,커플러">
+    <meta name="canonical" href="http://insteel.kr">
+    <meta name="title" content="INSTEEL">
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\mediaquary.css">
+
+<body>
+    <!-- MAIN 1P-->
+    <div class="container container--main">
+        <div class="inner">
+            <div class="nav">
+                <div class="logo-group">
+                    <a href="http://insteel.kr">INSTEEL</a>
+                </div>
+                <div class="menu-group">
+                    <ul>
+                        <li><a href="#present">현재</a></li>
+                        <li><a href="#future">미래</a></li>
+                        <li><a href="#past">과거</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="heading-group">
+                <h1 class="heading">DREAM SPACE</h1>
+                <h2 class="subhead">우주정거장으로의 납품을 꿈꾸다</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="contents">
+        <!-- PRESENT 2P -->
+        <div id="present" class="container container--present">
+            <div class="inner">   
+                    <!-- Buliding Image -->
+                    <img src="images/2p/buliding_IMG2.png">    
+                    <!-- Operating Characteristics -->
+                    <div class="OCleft">
+                        <div class="OCtop">
+                            <h2>생산성</h2>
+                            <div class="animate1" data-rate="6">0.1</div>
+                        </div>
+                        <div class="OCmid">
+                            <h2>불량률</h2>
+                            <div class="animate2" data-rate="0">10%</div>
+                        </div>
+                        <div class="OCbottom">
+                            <p>
+                                현재, 최고의 고객만족과<br>
+                                향상 된 생산성을 위해<br>
+                                매일 더 노력합니다.
+                            <p>
+                        </div>
+                    </div>               
+            </div>
+            <div class="intro">
+                <h3>PRESENT</h3>
+            </div>
+            <div class="OCright">
+                <div data-video="nwsw79bPgVY" class="bar">
+                  <h5>BAR STATION</h5>
+                  <h6>업무 PROCESS</h6>
+                </div>
+                <div data-video="nwsw79bPgVY" class="coupler">
+                    <h5>COUPLER STATION</h5>
+                    <h6>업무 PROCESS</h6>
+                </div>  
+              </div>
+        </div>
+
+        <!-- FUTURE 3P -->
+        <div id="future" class="container container--future">
+            <div class="inner">
+                <div class="textwrap">
+                    <div class="title">FUTURE</div>
+                <div class="subject">DATA 혁신</div>
+                <p>
+                    우주정거장에 납품 할 수 있는 회사는 어떤 모습일까요?<br>
+                    DATA 속에서 얻은 인사이트로 성장하는 회사,<br>
+                    인스틸 주식회사 입니다.
+                </p>
+                <div class="subtitle">OUR MISSON</div>
+                <div class="subset">
+                <span>생산성 최적화</span>
+                <span>CRM</span>
+                <span>스마트팩토리 고도화</span><br>
+                <span>LOSS TIME 제거</span>
+                <span>위험요소 제거</span>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAST 4P -->
+        <div id="past" class="container container--past">
+            <div class="inner">
+                <div class="textwrap">
+                    <div class="title">PAST</div>
+                    <p>
+                        2011년 1월 설립된 인스틸 주식회사는<br>
+                        제강사, 종합건설, 전문건설업체 고객들에게<br>
+                        딱 맞는 철근가공, 커플러가공 서비스를<br>
+                        제공해드리고 있습니다.
+                    </p>
+                    <div class="subset">
+                        <div onclick="window.open('download/INSTEEL_Catalogue.pdf')" class="set1">
+                            납품이력보기
+                        </div><br>
+                        <div onclick="window.open('https://pf.kakao.com/_mPxbIxb')" class="set2">
+                            문의하기
+                        </div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="video_modal_popup">
+    <div class="video_modal_popup-closer"></div>
+</div>
+
+<script >
+$(".OCright div").click(function() {
+    $(".video_modal_popup").addClass("reveal"),
+    $(".video_modal_popup .video-wrapper").remove(),
+    $(".video_modal_popup").append("<div class='video-wrapper'><iframe width='560' height='315' src='https://youtube.com/embed/" + $(this).data("video") + "?rel=0&playsinline=1&autoplay=1' allow='autoplay; encrypted-media' allowfullscreen></iframe></div>")
+}),
+$(".video_modal_popup-closer").click(function() {
+    $(".video_modal_popup .video-wrapper").remove(),
+    $(".video_modal_popup").removeClass("reveal")
+});
+</script>
+
+ <!--Start of Tawk.to Script-->
+ <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5f6aaa8df0e7167d0012dd4b/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
+

@@ -1,0 +1,356 @@
+@media screen and (max-width: 1500px) {
+ 
+  .container--present .inner img {width: 1100px;}
+  .container--present .inner .OCleft .OCtop {width: 300px;}
+  .container--present .inner .OCleft .OCtop h2 {font-size: 4rem;}
+  .container--present .inner .OCleft .OCtop .animate1 {font-size: 8rem;}
+  .container--present .inner .OCleft .OCmid {width: 300px;}
+  .container--present .inner .OCleft .OCmid h2 {font-size: 4rem;}
+  .container--present .inner .OCleft .OCmid .animate2 {font-size: 8rem;}
+  .container--present .inner .OCleft .OCbottom p{font-size: 3rem;}
+
+  .container--present .OCright .bar {width: 300px;}
+  .container--present .OCright .coupler {width: 300px; top: 250px;}
+  .container--present .OCright h5 {font-size: 2.5rem;}
+  .container--present .OCright h6 {font-size: 1.5rem;}
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  /* MAIN 1P */
+  .container--main .inner .nav .logo-group a {
+    font-size: 6rem;
+  }
+  .container--main .inner .nav .menu-group ul li {
+    font-size: 3rem;
+  }
+  .container--main .inner .heading-group h1 {
+    font-size: 7rem;
+  }
+  .container--main .inner .heading-group h2 {
+    font-size: 4rem;
+  }
+
+
+
+
+  /* PRESENT 2P */
+
+  .container--present .inner img {
+    width: 800px;
+    top: 70%;  
+  }
+
+  .container--present .OCright .bar {
+    width: 300px;
+  }
+  .container--present .OCright .coupler {
+    width: 300px;
+  }
+
+  .container--present .inner .OCleft {
+    top: 15%; 
+  }
+  .container--present .inner .OCleft .OCtop {
+    width: 280px;
+  }
+  .container--present .inner .OCleft .OCtop h2 {
+    font-size: 3rem;
+  }
+  .container--present .inner .OCleft .OCtop .animate1 {
+    font-size: 8rem;
+  }
+
+
+  .container--present .inner .OCleft .OCmid {
+    width: 280px;
+  }
+  .container--present .inner .OCleft .OCmid h2 {
+    font-size: 3rem;
+  }
+  .container--present .inner .OCleft .OCmid .animate2 {
+    font-size: 8rem;
+  }
+
+
+  .container--present .inner .OCleft .OCbottom p {
+    line-height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    width: 21rem;
+  }
+
+  .container--present .OCright .coupler {
+    top: 230px;
+  }
+
+  
+  /* FUTURE 3P */
+  .container--future .inner .subject {
+    font-size: 10rem;
+  }
+  .container--future .inner p {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 746px) {
+
+  /* MAIN 1P */
+  .container--main .inner .nav .logo-group a {
+    font-size: 5rem;
+  }
+  .container--main .inner .nav .menu-group ul li {
+    font-size: 2.5rem;
+  }
+  .container--main .inner .heading-group h1 {
+    font-size: 6rem;
+  }
+  .container--main .inner .heading-group h2 {
+    font-size: 2.5rem;
+  }
+
+
+    /* PRESENT */    
+    .container--present .inner img {
+      width: 600px;
+      top: 70%;  
+    }
+    .container--present .inner .OCleft .OCtop {
+      width: 200px;
+    }
+    .container--present .inner .OCleft .OCmid {
+      width: 200px;
+    }
+    .container--present .inner .OCleft .OCtop h2 
+    {  
+        font-size: 2rem;
+    }
+    .container--present .inner .OCleft .OCmid h2 
+    {   
+        font-size: 2rem;
+    }
+    .container--present .inner .OCleft .OCtop .animate1 {
+      font-size: 5rem;
+    }
+    .container--present .inner .OCleft .OCmid .animate2 {
+      font-size: 5rem;
+    }
+    .container--present .OCright .bar {
+      top: 150px;
+      width: 200px;
+    }
+    .container--present .OCright .coupler {
+      top: 250px;
+      width: 200px;
+    }
+    .container--present .OCright h5 {
+      font-size: 2rem;
+    }
+     .container--present .OCright h6 {
+      font-size: 1.5rem;
+   }
+
+    
+
+
+
+
+    /* FUTURE 3P */
+    .container--future .inner .title {
+      font-size: 6rem;
+    }
+    .container--future .inner .subject {
+      font-size: 8rem;
+    }
+    .container--future .inner p {
+      font-size: 1.5rem;
+    }
+    .container--future .inner .subtitle {
+      font-size: 3rem;
+    }
+    .container--future .inner .subset {
+      height: 15rem;
+  }
+    .container--future .inner .subset span {
+      font-size: 2rem;
+      line-height: 5rem;
+      padding: .5rem;
+      margin: .5rem;
+    }
+  
+    
+  
+    /* PAST 4P */
+    .container--past .inner .textwrap .title {
+      font-size: 6rem;
+    }
+    .container--past .inner .textwrap p {
+      font-size: 2rem;
+    }
+    .container--past .inner .textwrap .subset .set1 {
+      font-size: 2.5rem;
+      width: 17rem;
+    }
+    .container--past .inner .textwrap .subset .set2 {
+      font-size: 2.5rem;
+      width: 17rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+  /* MAIN 1P */
+  .container--main .inner .nav .logo-group a {
+    font-size: 3rem;
+  }
+  .container--main .inner .nav .menu-group ul li {
+    font-size: 1.5rem;
+  }
+  .container--main .inner .heading-group h1 {
+    font-size: 4rem;
+  }
+  .container--main .inner .heading-group h2 {
+    font-size: 1.5rem;
+  }
+
+
+  /* PRESENT 2P */
+    .container--present .inner img {
+      width: 300px;
+      top: 85%;
+    }
+    .container--present .intro h3 {
+      font-size: 4rem;
+    }
+
+    .container--present .inner .OCleft {
+      width: 100%;
+      height: 20%;
+      top: 40%;
+      left: 0;
+    }
+    .container--present .inner .OCleft .OCbottom p {
+      text-align: center;
+      line-height: 2rem;
+      font-size: 2rem;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .container--present .inner .OCleft .OCtop {
+      width: 180px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .container--present .inner .OCleft .OCmid {
+      width: 180px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .container--present .inner .OCleft .OCtop h2 
+    {   
+      font-size: 2rem;
+
+    }
+   .container--present .inner .OCleft .OCtop .animate1 {
+      font-size: 4rem;
+      float: right;
+    }
+    .container--present .inner .OCleft .OCmid h2 
+    {   
+      font-size: 2rem;
+    }
+   .container--present .inner .OCleft .OCmid .animate2 {
+      font-size: 4rem;
+      float: right;
+    }
+  
+    .container--present .OCright {
+      width: 53vw;
+      height: 20%;
+      overflow: hidden;
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .container--present .OCright .bar {
+      width: 50vw;
+      border: .1rem solid #00ffff;
+      position: relative;
+      top: 0;
+      margin-bottom: 5%;
+  }
+  
+  .container--present .OCright .coupler {
+      width: 50vw;
+      border: .1rem solid #00ffff;
+      position: relative;
+      top: 0;
+
+  }
+  
+  .container--present .OCright h5 {
+      font-size: 2rem;
+      padding: .3rem 0;
+      text-align: center;
+
+  }
+  .container--present .OCright h6 {
+      font-size: 1rem;
+      padding: .3rem 0;
+      text-align: center;
+  }
+
+
+
+  /* FUTURE 3P */
+  .container--future .inner .title {
+    font-size: 4rem;
+  }
+  .container--future .inner .subject {
+    font-size: 5rem;
+  }
+  .container--future .inner p {
+    font-size: 1rem;
+  }
+  .container--future .inner .subtitle {
+    font-size: 3rem;
+  }
+  .container--future .inner .subset {
+    height: 10rem;
+}
+  .container--future .inner .subset span {
+    font-size: 1rem;
+    line-height: 3rem;
+    padding: .5rem;
+    margin: .5rem;
+    border: .1rem solid #00ffff;
+  }
+
+  
+
+  /* PAST 4P */
+  .container--past .inner .textwrap .title {
+    font-size: 4rem;
+  }
+  .container--past .inner .textwrap p {
+    font-size: 1.3rem;
+  }
+  .container--past .inner .textwrap .subset .set1 {
+    font-size: 1.3rem;
+    width: 10rem;
+    border: .1rem solid #00ffff;
+  }
+  .container--past .inner .textwrap .subset .set2 {
+    font-size: 1.3rem;
+    width: 10rem;
+    border: .1rem solid #00ffff;
+  }
+}
